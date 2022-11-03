@@ -13,7 +13,14 @@
         android:theme="@style/Theme.TopTalent"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
+            android:name=".activity.OnboardingActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
